@@ -1,0 +1,65 @@
+[
+  {
+    "ipTrafficKeys": [
+      {
+        "srcIp": "0.0.0.0",
+        "qos": 2,
+        "dstIp": "14.1.2.3"
+      }
+    ],
+    "graphBefore": {
+      "nodeToOutEdgesMap": {
+        "BORDER-1.DC1|vrf": {
+          "drop": []
+        },
+        "BORDER-2.DC1|vrf": {
+          "drop": []
+        },
+        "SPINE-3.DC3|vrf": {
+          "BORDER-1.DC1|vrf": [
+            "GigabitEthernet3/1/1"
+          ],
+          "BORDER-2.DC1|vrf": [
+            "GigabitEthernet3/0/1"
+          ]
+        }
+      },
+      "sourceNodes": [
+        "SPINE-3.DC3|vrf"
+      ],
+      "sinkNodes": [
+        "drop"
+      ]
+    },
+    "graphAfter": {
+      "nodeToOutEdgesMap": {
+        "BORDER-1.DC1|vrf": {
+          "drop": []
+        },
+        "BORDER-2.DC1|vrf": {
+          "drop": []
+        },
+        "SPINE-3.DC3|vrf": {
+          "BORDER-1.DC1|vrf": [
+            "GigabitEthernet3/1/1"
+          ],
+          "BORDER-2.DC1|vrf": [
+            "GigabitEthernet3/0/1"
+          ],
+          "NEW-DEVICE|vrf": [
+            "NEW-INTERFACE"
+          ]
+        },
+        "NEW-DEVICE|vrf": {
+          "drop": []
+        }
+      },
+      "sourceNodes": [
+        "SPINE-3.DC3|vrf"
+      ],
+      "sinkNodes": [
+        "drop"
+      ]
+    }
+  }
+]
