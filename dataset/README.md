@@ -17,8 +17,10 @@ data = RelaGraphNC.from_json(file, precision, mapping_file)
 ```
 
 ## Citation
+Please cite the following paper if you use the dataset.
+
 Xieyang Xu, Yifei Yuan, Zachary Kincaid, Arvind Krishnamurthy, Ratul
-Mahajan and David Walker. 2024. Relational Network Verification. In ACM
+Mahajan, David Walker and Ennan Zhai. 2024. Relational Network Verification. In ACM
 SIGCOMM 2024 Conference (ACM SIGCOMM ’24), August 4–8, 2024, Sydney,
 NSW, Australia. ACM, New York, NY, USA, 15 pages. https://doi.org/10.1145/3651890.3672238
 ```

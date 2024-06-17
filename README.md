@@ -5,10 +5,10 @@ Rela is a tool for checking the correctness of network changes. It provides:
 
 We also release a [dataset](dataset/) we used to benchmark the performance of Rela tool in a complex production network. Please refer to this [documentation](dataset/README.md) for more details about this dataset.
 
-The design of Rela language and the experience of using Rela to verify complex, realworld networks are desribed in the paper,
+The design of Rela language and the experience of using Rela to verify complex, realworld networks are described in the paper,
 
 Xieyang Xu, Yifei Yuan, Zachary Kincaid, Arvind Krishnamurthy, Ratul
-Mahajan and David Walker. 2024. Relational Network Verification. In ACM
+Mahajan, David Walker and Ennan Zhai. 2024. Relational Network Verification. In ACM
 SIGCOMM 2024 Conference (ACM SIGCOMM ’24), August 4–8, 2024, Sydney,
 NSW, Australia. ACM, New York, NY, USA, 15 pages. https://doi.org/10.1145/3651890.3672238
 
