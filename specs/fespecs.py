@@ -2,5 +2,5 @@ from rela.compilation.compiler import RelaCompiler
 from rela.language.frontend.frontend import *
 
 def preserve_fe():
-    spec = pDot(PStar) % Preserve()
+    spec = PStar(pDot) % Preserve()
     return RelaCompiler.compile(spec)
