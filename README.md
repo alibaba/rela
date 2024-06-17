@@ -1,4 +1,4 @@
-# Rela - Validating in-production network changes with few-lines specification
+# Rela - Validating in-production network changes with just a few lines of specifications
 Rela is a tool for checking the correctness of network changes. It provides:
 - A domain-specific language for users to describe end-to-end change impacts in a few lines.
 - A verifier to check whether a network change implementation satisfies the user's specification.
